@@ -34,6 +34,7 @@ header .list-items {
   max-width: 260px;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 header .menu {
@@ -42,5 +43,34 @@ header .menu {
 
 .list-items li a {
   color: #fff;
+}
 
+.apresentacao {
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao {
+  min-height: 200px;
+}
+
+.texto-apresentacao h1 {
+  color: #122a57;
+  font-size: 48px;
+  margin: 10px;
+}
+
+.texto-apresentacao a {
+  display: block;
+  background-color: #122a57;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  width: 220px;
+  height: 50px;
+  text-decoration: none;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
